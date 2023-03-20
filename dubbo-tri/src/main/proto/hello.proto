@@ -5,9 +5,10 @@ option java_package = "com.demo.stub";
 option java_outer_classname = "HelloWorldProto";
 
 package com.demo.helloworld;
+import "validate/validate.proto";
 
 message HelloReq {
-  string name = 1;
+  string name = 1 [(validate.rules).string.len = 5];
 }
 
 message HelloResp {

@@ -12,10 +12,12 @@ dubbo:
     port: 9000
     # triple 协议
     name: tri
+  provider:
+    validation: pbValidation
   # 消费者默认参数
   consumer:
     # ms
-    timeout: 2000
+    timeout: 20000
     retries: 0
   reference:
     com.demo.stub.Greeter:

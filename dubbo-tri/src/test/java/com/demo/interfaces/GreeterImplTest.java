@@ -18,7 +18,7 @@ class GreeterImplTest {
 
     @Test
     void greet() {
-        HelloResp resp = greeter.greet(HelloReq.newBuilder().setName("zhangsan").build());
+        HelloResp resp = greeter.greet(HelloReq.newBuilder().setName("zhang").build());
         System.out.println(resp.getMessage());
     }
 }
