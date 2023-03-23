@@ -12,22 +12,23 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <dubbo.version>3.2.0-beta.5</dubbo.version>
+        <dubbo.version>3.1.8</dubbo.version>
         <spring.boot.version>2.7.0</spring.boot.version>
-        <grpc.version>1.47.0</grpc.version>
-        <protobuf.version>3.19.2</protobuf.version>
-        <pgv.version>0.9.1</pgv.version>
+        <grpc.version>1.53.0</grpc.version>
+        <protobuf.version>3.22.2</protobuf.version>
+        <pgv.version>0.10.1</pgv.version>
         <!-- 代码生成 -->
         <os-maven-plugin.version>1.7.1</os-maven-plugin.version>
         <protobuf-maven-plugin.version>0.6.1</protobuf-maven-plugin.version>
-        <protoc.version>3.21.1</protoc.version>
+        <protoc.version>3.22.2</protoc.version>
 
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>org.apache.dubbo</groupId>
+            <groupId>com.seezoon</groupId>
             <artifactId>dubbo-spring-boot-starter</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.google.protobuf</groupId>

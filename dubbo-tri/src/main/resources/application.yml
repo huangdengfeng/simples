@@ -22,7 +22,7 @@ dubbo:
   reference:
     com.demo.stub.Greeter:
       # 直连
-      url: tri://192.168.1.28:9000
+      url: tri://10.43.17.46:9000
 
 
 
